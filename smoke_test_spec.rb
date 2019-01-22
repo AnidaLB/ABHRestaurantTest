@@ -18,49 +18,6 @@ describe 'ABH restaurants smoke test' do
 			site.home_page.open_login
 		end
 
-		# it 'should go to create account page' do
-		# 	site.login_page.open_form
-		# end
-
-		# it 'should enter the first name' do
-		# 	site.account_page.enter_first_name 'Janes'
-		# end
-
-		# it 'should enter the last name' do
-		# 	site.account_page.enter_last_name 'Doe'
-		# end
-
-		# it 'should enter email' do
-		# 	site.account_page.enter_email 'janedoes@gmail.com'
-		# end
-
-		# it 'should enter phone number' do
-		# 	site.account_page.enter_phone_number '062062062'
-		# end
-
-		# it 'should choose the country' do
-		# 	site.account_page.open_countries
-		# 	site.account_page.choose_country
-		# end
-
-		# it 'should choose the city' do
-		# 	site.account_page.open_cities
-		# 	site.account_page.choose_city
-		# end
-
-		# it 'should create password' do
-		# 	site.account_page.enter_password 'sifrazaaplikaciju'
-		# end
-
-		# it 'should confirm the password' do
-		# 	site.account_page.confirm_password 'sifrazaaplikaciju'
-		# end
-
-		# it 'should create account' do
-		# 	site.account_page.submit_form
-		# 	sleep 6
-		# end
-
 		it 'should enter email' do
 			site.login_page.enter_email 'admin@abh.com'
 		end
